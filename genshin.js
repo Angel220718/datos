@@ -1,3 +1,4 @@
+function prueba(){}
 function hacerTransparente() {
   // Obtén las celdas por su clase
   var celdasf = document.getElementsByClassName("fila");
