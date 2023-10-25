@@ -1,0 +1,202 @@
+.B2,
+.C2,
+.D2,
+.E2,
+.P3,
+.R4,
+.Q4 {
+    width: 230px;
+    height: 50px;
+}
+
+.S3,
+.T3,
+.QR3 {
+    width: 180px;
+    height: 50px;
+}
+
+.columna {
+    width: 4%;
+    height: 50px;
+    color: white;
+    border: 1px solid rgb(0, 0, 0);
+}
+
+.fila {
+    width: 4%;
+    height: 50px;
+    color: white;
+    border: 1px solid rgb(0, 0, 0);
+}
+
+.titulo {
+    background-color: rgb(255, 192, 0);
+    width: 130px;
+    height: 0px;
+    border: 1px solid rgb(92, 86, 86);
+}
+
+.P3,
+.QR3,
+.Q4,
+.R4 {
+    background-color: rgb(255, 192, 0);
+    border: 1px solid rgb(92, 86, 86);
+}
+
+.P4 {
+    background-color: rgb(255, 192, 0);
+    color: white;
+    width: 150px;
+    height: 50px;
+    border: 1px solid rgb(92, 86, 86);
+}
+
+
+
+.B2,
+.B3,
+.B4,
+.B5,
+.B6,
+.B7,
+.st4 {
+    background-color: rgb(112, 48, 160);
+    border: 1px solid rgb(92, 86, 86);
+}
+
+.C2,
+.C3,
+.C4,
+.C5,
+.C6,
+.C7 {
+    background-color: rgb(0, 112, 192);
+    border: 1px solid rgb(92, 86, 86);
+}
+
+.D2,
+.D3,
+.D4,
+.D5,
+.D6,
+.D7 {
+    background-color: rgb(0, 176, 80);
+    border: 1px solid rgb(92, 86, 86);
+}
+
+.E2,
+.E3,
+.E4,
+.E5,
+.E6,
+.E7 {
+    background-color: rgb(128, 128, 128);
+    border: 1px solid rgb(92, 86, 86);
+}
+
+.S3,
+.S5,
+.S6 {
+    background-color: rgb(230, 189, 139);
+    border: 1px solid rgb(92, 86, 86);
+}
+
+.T3 {
+    background-color: rgb(230, 189, 139);
+    color: white;
+    border: 1px solid rgb(92, 86, 86);
+}
+
+.B4,
+.C4,
+.D4,
+.E4 {
+    color: white;
+    border: 1px solid rgb(92, 86, 86);
+
+}
+
+.B2,
+.C2,
+.D2,
+.E2 {
+    color: white;
+    border: 1px solid rgb(92, 86, 86);
+}
+
+th {
+    text-align: center;
+}
+
+.encabezado {
+    background-color: red;
+    color: rgb(172, 172, 5);
+    border: 1px solid rgb(92, 86, 86);
+}
+
+.intro,
+.label,
+.ocultar {
+    color: rgb(109, 79, 14);
+    text-align: center;
+    border: 5px solid coral;
+    background-color: black;
+    padding: 5px;
+
+}
+
+.P4[contenteditable]:empty::before {
+    content: "Ingrese tiradas necesarias";
+    color: white;
+
+}
+
+.S3:empty::before {
+    content: "Protogema Fuerte";
+    color: white;
+
+}
+
+.T3:empty::before {
+    content: "Protogema Debil";
+}
+
+.st4[contenteditable]:empty::before {
+    content: "Ingrese tus protogema ";
+    color: white;
+}
+
+.Guardar {
+    background-color: green;
+}
+
+.Recuperar {
+
+    background-color: orange;
+
+}
+
+.Borrar  {
+
+    background-color: red;
+
+}
+
+.fondo {
+    background-image: url('https://th.bing.com/th/id/R.ecb564202af2ec447aef7d3e64994bb7?rik=zBkfoKwsuE2zLg&pid=ImgRaw&r=0');
+    background-size: cover;
+    /* Ajustar la imagen al tamaño de la ventana del navegador */
+    background-repeat: no-repeat;
+}
+
+.ocultar {
+    float: right;
+}
+
+.transparent-cell {
+    transition: opacity 0.5s;
+    opacity: 0;
+    border: none;
+}
