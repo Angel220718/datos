@@ -1,5 +1,5 @@
 
-function hacerTransparentess() {
+function hacerTransparente() {
   // Obtén las celdas por su clase
   var celdasf = document.getElementsByClassName("fila");
   var celdasc = document.getElementsByClassName("columna");
